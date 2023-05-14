@@ -31,7 +31,9 @@ export function useTranslationWithBrowserLanguageDetection() {
   const { i18n } = useTranslation();
 
   useEffect(() => {
-    i18n.changeLanguage(navigator.language);
+    i18n.on("initialized", () => {
+      i18n.changeLanguage(navigator.language);
+    });
   }, []);
 
   return useTranslation();

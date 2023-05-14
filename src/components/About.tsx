@@ -1,9 +1,13 @@
 import { t } from "i18next";
 import Image from "next/image";
+import Button from "./Button";
+import { useTranslationWithBrowserLanguageDetection } from "@/i18n/i18n";
 
 export default function About() {
+  const { i18n } = useTranslationWithBrowserLanguageDetection();
+
   return (
-    <section className="md:px-5">
+    <section className="mt-20 md:px-5">
       <h1 className="text-center text-4xl md:text-7xl pt-20 mb-2 font-bold text-neutral-800 dark:text-gray-200">
         Vianney Accart
       </h1>
@@ -13,7 +17,7 @@ export default function About() {
       <div className="flex justify-center pt-12">
         <Image
           src="/profile_picture.png"
-          alt="French flag"
+          alt="Picture of Vianney Accart" // TODO : Translate
           width={200}
           height={200}
           className="border border-solid border-4 border-white rounded-full"
@@ -26,15 +30,19 @@ export default function About() {
         </p>
       </div>
 
-      {/* Change CV language depending on selected language */}
+      {/* TODO : upload english cv */}
       <div className="flex justify-center">
-        <a
-          href="/cv_vianney_accart_developpeur_full_stack_ingenieur_logiciel.pdf"
-          rel="noreferrer noopener"
-          target="_blank"
-        >
-          <button className="-mt-8">Curriculum Vitae</button>
-        </a>
+        <div className="-mt-8">
+          <Button
+            url={
+              i18n.language === "fr"
+                ? "/cv_vianney_accart_developpeur_full_stack_ingenieur_logiciel.pdf"
+                : "/logo.png"
+            }
+            label="Curriculum Vitae"
+            newTab={true}
+          />
+        </div>
       </div>
     </section>
   );

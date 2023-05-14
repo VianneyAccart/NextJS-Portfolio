@@ -1,4 +1,5 @@
-import { VscGithubAlt } from "react-icons/vsc";
+import { GITHUB_URL } from "@/links";
+import Button from "./Button";
 
 export default function Projects() {
   return (
@@ -33,16 +34,7 @@ export default function Projects() {
       </div>
 
       <div className="flex justify-center mt-16">
-        <a
-          href="https://github.com/VianneyAccart"
-          rel="noreferrer noopener"
-          target="_blank"
-        >
-          <button className="flex gap-2 items-center">
-            <VscGithubAlt className="text-neutral-800" />
-            See more on GitHub
-          </button>
-        </a>
+        <Button url={GITHUB_URL} newTab={true} label="See more on GitHub" />
       </div>
     </section>
   );

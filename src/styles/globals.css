@@ -14,13 +14,16 @@
     @apply text-sky-500 no-underline;
   }
   button {
-    @apply h-16 px-12 md:px-20 rounded-full bg-emerald-400 text-neutral-800 text-xl hover:bg-yellow-600 transform transition duration-500;
+    @apply h-16 px-12 md:px-20 rounded-full bg-blue-500 text-white text-xl hover:bg-blue-600 transform transition duration-500;
   }
 }
 
 @layer components {
   .nav-icon {
     @apply text-2xl text-neutral-800 dark:text-gray-200 cursor-pointer transform transition duration-500 hover:scale-110;
+  }
+  .lang-icon {
+    @apply cursor-pointer transform transition duration-500 hover:scale-110 h-auto w-6;
   }
 }
 
