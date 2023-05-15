@@ -7,7 +7,7 @@ export default function About() {
   const { i18n } = useTranslationWithBrowserLanguageDetection();
 
   return (
-    <section className="mt-20 md:px-5">
+    <section className="mt-20 px-5">
       <h1 className="text-center text-4xl md:text-7xl pt-20 mb-2 font-bold text-neutral-800 dark:text-gray-200">
         Vianney Accart
       </h1>
@@ -24,7 +24,7 @@ export default function About() {
         />
       </div>
 
-      <div className="-mt-24 text-xl lg:mx-52 p-6 md:p-16 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+      <div className="-mt-24 text-xl md:mx-10 lg:mx-32 xl:mx-52 p-6 md:p-16 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
         <p className="text-center mt-24 md:mt-16 mb-12 md:mb-10 md:text-xl font-light">
           {t("about")}
         </p>

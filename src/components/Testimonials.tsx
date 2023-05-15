@@ -10,7 +10,7 @@ export default function Testimonials() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mx-4 lg:mx-52">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:mx-52">
         <div className="rounded-xl p-8 bg-gray-100 dark:bg-gray-700 flex flex-col items-center justify-center">
           <h3 className="text-center md:text-2xl font-bold">Projet 1</h3>
         </div>
