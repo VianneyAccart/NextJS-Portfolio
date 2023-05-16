@@ -2,10 +2,12 @@ const Button = ({
   url,
   newTab,
   label,
+  className,
 }: {
   url: string;
   newTab: boolean;
   label: string;
+  className?: string;
 }) => {
   return (
     <a
@@ -13,7 +15,9 @@ const Button = ({
       rel={newTab ? "noreferrer noopener" : ""}
       target={newTab ? "_blank" : ""}
     >
-      <button className="flex gap-2 items-center">{label}</button>
+      <button className={`flex gap-2 items-center ${className}`}>
+        {label}
+      </button>
     </a>
   );
 };
