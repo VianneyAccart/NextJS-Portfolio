@@ -83,7 +83,7 @@ const Projects = () => {
         <Project
           src="/blog-enbasdemarue.webp"
           alt="Blog de la marketplace Enbasdemarue"
-          description="Blog qui présente les services proposés par la marketplace Enbasdemarue et son fonctionnement"
+          description="Blog qui présente les services proposés par la marketplace Enbasdemarue"
           url="https://www.blog.enbasdemarue.fr/"
         />
       </div>

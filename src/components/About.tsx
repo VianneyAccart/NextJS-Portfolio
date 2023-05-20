@@ -36,8 +36,8 @@ export default function About() {
           <Button
             url={
               i18n.language === "fr"
-                ? "/cv_vianney_accart_developpeur_full_stack_ingenieur_logiciel.pdf"
-                : "/logo.png"
+                ? "/cv_vianney_accart_fr.pdf"
+                : "/cv_vianney_accart_en.pdf"
             }
             label="Curriculum Vitae"
             newTab={true}

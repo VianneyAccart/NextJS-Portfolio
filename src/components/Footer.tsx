@@ -22,11 +22,11 @@ const Footer = () => {
         <FooterLink icon={BsTwitter} url={TWITTER_URL} />
         <FooterLink icon={FaLinkedinIn} url={LINKEDIN_URL} />
       </div>
-      <div className="flex flex-col items-center mb-12 mt-4">
-        <p className="mt-4 font-light text-lg">
+      <div className="mb-12 mt-4">
+        <p className="mt-4 font-light text-lg text-center">
           Design et développement réalisés par mes soins - Tous droits réservés
         </p>
-        <p className="font-light text-lg">Mentions Légales</p>
+        <p className="font-light text-lg text-center">Mentions Légales</p>
       </div>
     </footer>
   );
