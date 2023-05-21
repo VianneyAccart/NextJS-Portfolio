@@ -3,6 +3,8 @@ import { FiGithub } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IconType } from "react-icons/lib";
 import { GITHUB_URL, LINKEDIN_URL, TWITTER_URL } from "@/links";
+import Legals from "./Legals";
+import { useState } from "react";
 
 const FooterLink = ({ icon: Icon, url }: { icon: IconType; url: string }) => {
   return (
@@ -15,6 +17,16 @@ const FooterLink = ({ icon: Icon, url }: { icon: IconType; url: string }) => {
 };
 
 const Footer = () => {
+  const [isLegalsOpen, setIsLegalsOpen] = useState(false);
+
+  const openLegals = () => {
+    setIsLegalsOpen(true);
+  };
+
+  const closeLegals = () => {
+    setIsLegalsOpen(false);
+  };
+
   return (
     <footer className="px-5 mt-48 flex flex-col items-center">
       <div className="flex gap-7">
@@ -26,8 +38,14 @@ const Footer = () => {
         <p className="mt-4 font-light text-lg text-center">
           Design et développement réalisés par mes soins - Tous droits réservés
         </p>
-        <p className="font-light text-lg text-center">Mentions Légales</p>
+        <p
+          className="font-light text-lg text-center cursor-pointer underline decoration-solid"
+          onClick={openLegals}
+        >
+          Mentions Légales
+        </p>
       </div>
+      {isLegalsOpen && <Legals closeLegals={closeLegals} />}
     </footer>
   );
 };
