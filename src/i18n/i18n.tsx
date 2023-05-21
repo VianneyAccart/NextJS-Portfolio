@@ -12,6 +12,16 @@ i18n
     resources: {
       en: {
         translation: {
+          guillaumeTestimonial: `"Je suis photographe professionnel et j'ai fait appel à Vianney pour
+          concevoir mon site internet. Il a su faire preuve d'un grand
+          professionnalisme pour s'adapter au mieux à mes besoins et me
+          proposer quelque chose qui me correspond parfaitement. Il est très
+          organisé, disponible et force de proposition"`,
+          quentinTestimonial: `"J’ai fait appel à Vianney au lancement de mon activité de coaching
+          sportif pour réaliser mon site. Je n'avais que peu d'idées
+          concernant le design. Vianney a su me poser les bonnes questions
+          afin de me proposer différentes possibilités. Il a su prendre des
+          initiatives pour me faire gagner du temps"`,
           visit: "Visit",
           title: "Full Stack Developer & Software Engineer",
           about:
@@ -20,6 +30,16 @@ i18n
       },
       fr: {
         translation: {
+          guillaumeTestimonial: `"Je suis photographe professionnel et j'ai fait appel à Vianney pour
+          concevoir mon site internet. Il a su faire preuve d'un grand
+          professionnalisme pour s'adapter au mieux à mes besoins et me
+          proposer quelque chose qui me correspond parfaitement. Il est très
+          organisé, disponible et force de proposition"`,
+          quentinTestimonial: `"J’ai fait appel à Vianney au lancement de mon activité de coaching
+          sportif pour réaliser mon site. Je n'avais que peu d'idées
+          concernant le design. Vianney a su me poser les bonnes questions
+          afin de me proposer différentes possibilités. Il a su prendre des
+          initiatives pour me faire gagner du temps"`,
           visit: "Visiter",
           title: "Développeur Full Stack & Ingénieur Logiciel",
           about:
@@ -36,7 +56,7 @@ export const useTranslationWithBrowserLanguageDetection = () => {
     i18n.on("initialized", () => {
       i18n.changeLanguage(navigator.language);
     });
-  }, []);
+  }, [i18n]);
 
   return useTranslation();
 };

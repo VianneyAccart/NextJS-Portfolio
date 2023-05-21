@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import SectionIntroduction from "./SectionIntroduction";
+import { t } from "i18next";
 
 const Testimonials = () => {
   const [testimonial, setTestimonial] = useState(1);
@@ -24,11 +25,7 @@ const Testimonials = () => {
             />
           </div>
           <figcaption className="mt-10 md:px-32 margin-x text-center font-light text-xl">
-            "Je suis photographe professionnel et j'ai fait appel à Vianney pour
-            concevoir mon site internet. Il a su faire preuve d'un grand
-            professionnalisme pour s'adapter au mieux à mes besoins et me
-            proposer quelque chose qui me correspond parfaitement. Il est très
-            organisé, disponible et force de proposition"
+            {t("guillaumeTestimonial")}
           </figcaption>
           <p className="text-center text-xl mt-10">Guillaume Astruc</p>
           <p className="text-center text-sm font-light">
@@ -47,11 +44,7 @@ const Testimonials = () => {
             />
           </div>
           <figcaption className="mt-10 md:px-32 md:mx-10 lg:mx-32 xl:mx-52 text-center font-light text-xl">
-            "J’ai fait appel à Vianney au lancement de mon activité de coaching
-            sportif pour réaliser mon site. Je n'avais que peu d'idées
-            concernant le design. Vianney a su me poser les bonnes questions
-            afin de me proposer différentes possibilités. Il a su prendre des
-            initiatives pour me faire gagner du temps"
+            {t("quentinTestimonial")}
           </figcaption>
           <p className="text-center text-xl mt-10">Quentin Petitjean</p>
           <p className="text-center text-sm font-light">
