@@ -15,7 +15,7 @@ const LangToggler = ({
 }) => {
   return (
     <Image
-      className="lang-icon"
+      className="cursor-pointer transform transition duration-500 hover:scale-110 h-auto w-6"
       src={src}
       alt={alt}
       width={25}

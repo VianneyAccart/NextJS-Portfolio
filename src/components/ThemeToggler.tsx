@@ -4,7 +4,7 @@ import { FiMoon } from "react-icons/fi";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
-export default function ThemeToggler() {
+const ThemeToggler = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -33,4 +33,6 @@ export default function ThemeToggler() {
   };
 
   return <div>{renderThemeChanger()}</div>;
-}
+};
+
+export default ThemeToggler;

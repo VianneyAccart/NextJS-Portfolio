@@ -29,7 +29,7 @@ i18n
     },
   });
 
-export function useTranslationWithBrowserLanguageDetection() {
+export const useTranslationWithBrowserLanguageDetection = () => {
   const { i18n } = useTranslation();
 
   useEffect(() => {
@@ -39,4 +39,4 @@ export function useTranslationWithBrowserLanguageDetection() {
   }, []);
 
   return useTranslation();
-}
+};

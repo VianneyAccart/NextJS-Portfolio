@@ -1,20 +1,16 @@
 import { t } from "i18next";
 import Image from "next/image";
-import Button from "./Button";
+import Button, { ButtonType } from "./Button";
 import { useTranslationWithBrowserLanguageDetection } from "@/i18n/i18n";
 
-export default function About() {
+const About = () => {
   const { i18n } = useTranslationWithBrowserLanguageDetection();
 
   return (
-    <section className="mt-20 px-5">
-      <h1 className="text-center text-4xl md:text-7xl pt-20 mb-2 font-bold text-neutral-800 dark:text-gray-200">
-        Vianney Accart
-      </h1>
-      <h2 className="text-center px-5 text-2xl md:text-3xl mb-12 font-thin">
-        {t("title")}
-      </h2>
-      <div className="flex justify-center pt-12">
+    <section className="mt-20">
+      <h1>Vianney Accart</h1>
+      <h2 className="text-2xl md:text-3xl font-thin">{t("title")}</h2>
+      <div className="flex justify-center mt-24">
         <Image
           src="/profile_picture.png"
           alt="Picture of Vianney Accart" // TODO : Translate
@@ -24,7 +20,7 @@ export default function About() {
         />
       </div>
 
-      <div className="-mt-24 text-xl md:mx-10 lg:mx-32 xl:mx-52 p-6 md:p-16 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+      <div className="-mt-24 text-xl margin-x p-6 md:p-16 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
         <p className="text-center mt-24 md:mt-16 mb-12 md:mb-10 md:text-xl font-light">
           {t("about")}
         </p>
@@ -41,9 +37,12 @@ export default function About() {
             }
             label="Curriculum Vitae"
             newTab={true}
+            type={ButtonType.PRIMARY}
           />
         </div>
       </div>
     </section>
   );
-}
+};
+
+export default About;

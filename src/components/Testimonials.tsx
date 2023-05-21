@@ -1,17 +1,17 @@
 import Image from "next/image";
 import { useState } from "react";
+import SectionIntroduction from "./SectionIntroduction";
 
-export default function Testimonials() {
+const Testimonials = () => {
   const [testimonial, setTestimonial] = useState(1);
 
   return (
-    <section className="px-5 mt-40">
-      <div className="flex flex-col items-center my-12">
-        <h2 className="z-10 text-6xl font-bold">Témoignages</h2>
-        <p className="my-4 font-light text-xl">
-          Ils m'ont fait confiance en me confiant la réalisation de leur projet.
-        </p>
-      </div>
+    <section>
+      <SectionIntroduction
+        title="Témoignages"
+        introduction="Ils m'ont fait confiance en me confiant la réalisation de leur projet."
+      />
+
       {testimonial == 1 ? (
         <figure className="mt-20">
           <div className="flex justify-center">
@@ -23,7 +23,7 @@ export default function Testimonials() {
               className="borderborder-solid border-2 border-white rounded-full"
             />
           </div>
-          <figcaption className="mt-10 md:px-32 md:mx-10 lg:mx-32 xl:mx-52 text-center font-light text-xl">
+          <figcaption className="mt-10 md:px-32 margin-x text-center font-light text-xl">
             "Je suis photographe professionnel et j'ai fait appel à Vianney pour
             concevoir mon site internet. Il a su faire preuve d'un grand
             professionnalisme pour s'adapter au mieux à mes besoins et me
@@ -80,4 +80,6 @@ export default function Testimonials() {
       </div>
     </section>
   );
-}
+};
+
+export default Testimonials;

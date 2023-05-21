@@ -1,24 +1,25 @@
-import { GITHUB_URL } from "@/links";
-import Button from "./Button";
+import Button, { ButtonType } from "./Button";
+import SectionIntroduction from "./SectionIntroduction";
 
-export default function Contact() {
+const Contact = () => {
   return (
-    <section className="px-5 mt-40">
-      <div className="flex flex-col items-center mt-12 mb-8">
-        <h2 className="z-10 text-6xl font-bold">Et si nous collaborions ?</h2>
-        <p className="my-4 font-light text-xl">
-          Je vous accompagnerai dans votre projet, de l'élaboration à la
-          réalisation. Parlons-en ensemble.
-        </p>
-      </div>
+    <section>
+      <SectionIntroduction
+        title="Et si nous collaborions ?"
+        introduction="Je vous accompagnerai dans votre projet, de l'élaboration à la
+        réalisation. Parlons-en ensemble."
+      />
 
       <div className="flex justify-center">
         <Button
           label="Start a project"
           newTab={false}
           url="mailto:vianneyaccart@gmail.com"
+          type={ButtonType.PRIMARY}
         />
       </div>
     </section>
   );
-}
+};
+
+export default Contact;

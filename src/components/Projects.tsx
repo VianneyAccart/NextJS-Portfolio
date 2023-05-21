@@ -1,7 +1,8 @@
 import { GITHUB_URL } from "@/links";
-import Button from "./Button";
+import Button, { ButtonType } from "./Button";
 import Image from "next/image";
 import { t } from "i18next";
+import SectionIntroduction from "./SectionIntroduction";
 
 const Project = ({
   src,
@@ -15,7 +16,7 @@ const Project = ({
   url: string;
 }) => {
   return (
-    <figure className="rounded-xl sm:h-56 bg-gray-100 dark:bg-gray-700 flex flex-col items-center justify-center relative ">
+    <figure className="rounded-xl sm:h-56 bg-gray-100 dark:bg-gray-700 flex flex-col items-center justify-center relative">
       <div className="w-full h-full rounded-xl overflow-hidden hover:scale-110 transition-all duration-300">
         <Image
           src={src}
@@ -28,10 +29,11 @@ const Project = ({
       <figcaption className="rounded-xl absolute top-0 bottom-0 left-0 right-0 h-full w-full opacity-0 hover:opacity-100 transition-all ease-linear duration-300 bg-gray-100 dark:bg-gray-700 flex flex-col justify-center items-center p-6">
         <p className="text-center text-lg font-light mb-5">{description}</p>
         <Button
-          className="h-12 bg-transparent text-blue-500 hover:text-white border border-solid border-1 border-blue-500 hover:border-blue-600"
+          className="h-12"
           label={t("visit")}
           newTab={true}
           url={url}
+          type={ButtonType.SECONDARY}
         />
       </figcaption>
     </figure>
@@ -40,16 +42,14 @@ const Project = ({
 
 const Projects = () => {
   return (
-    <section className="px-5 mt-40">
-      <div className="flex flex-col items-center my-12">
-        <h2 className="z-10 text-6xl font-bold">Mes réalisations</h2>
-        <p className="my-4 font-light text-xl">
-          Je vous propose une sélection de quelques projets sur lesquels j'ai
-          travaillé.
-        </p>
-      </div>
+    <section>
+      <SectionIntroduction
+        title="Mes réalisations"
+        introduction="Je vous propose une sélection de quelques projets sur lesquels j'ai
+        travaillé."
+      />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 md:mx-10 lg:mx-32 xl:mx-52">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 margin-x">
         <Project
           src="/guillaume-astruc-photography.webp"
           alt="Site web Guillaume Astruc Photography"
@@ -89,7 +89,12 @@ const Projects = () => {
       </div>
 
       <div className="flex justify-center mt-16">
-        <Button url={GITHUB_URL} newTab={true} label="See more on GitHub" />
+        <Button
+          url={GITHUB_URL}
+          newTab={true}
+          label="See more on GitHub"
+          type={ButtonType.SECONDARY}
+        />
       </div>
     </section>
   );

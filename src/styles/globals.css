@@ -10,20 +10,35 @@
   body {
     @apply bg-white dark:bg-gray-800 text-neutral-800 dark:text-gray-200;
   }
-  a {
-    @apply text-sky-500 no-underline;
-  }
   button {
     @apply h-16 px-12 md:px-20 rounded-full bg-blue-500 text-white text-xl hover:bg-blue-600 transform transition duration-500;
+  }
+  section {
+    @apply mt-52 px-5 text-center;
+  }
+  h1 {
+    @apply text-center text-4xl md:text-7xl pt-20 mb-2 font-bold text-neutral-800 dark:text-gray-200;
+  }
+  h2 {
+    @apply text-4xl md:text-6xl font-bold;
+  }
+  h3 {
+    @apply text-center md:text-2xl font-bold;
   }
 }
 
 @layer components {
+  .margin-x {
+    @apply md:mx-10 lg:mx-32 xl:mx-52;
+  }
   .nav-icon {
     @apply text-2xl text-neutral-800 dark:text-gray-200 cursor-pointer transform transition duration-500 hover:scale-110;
   }
-  .lang-icon {
-    @apply cursor-pointer transform transition duration-500 hover:scale-110 h-auto w-6;
+  .skill-title {
+    @apply mt-12 text-xl mb-1;
+  }
+  .skill-list {
+    @apply text-center font-light;
   }
 }
 
