@@ -1,4 +1,5 @@
 {
+    "title": "Vianney Accart - Développeur Full Stack & Ingénieur Logiciel",
     "header": {
         "frenchFlag": "Icône du drapeau de la France",
         "englishFlag": "Icône du drapeau de l'Angleterre"
@@ -58,5 +59,29 @@
             "testimonial": "J’ai fait appel à Vianney au lancement de mon activité de coaching sportif pour réaliser mon site. Je n'avais que peu d'idées concernant le design. Vianney a su me poser les bonnes questions afin de me proposer différentes possibilités. Il a su prendre des initiatives pour me faire gagner du temps",
             "roleAndCompany": "Coach Sportif, Esprit Body"
         }
+    },
+    "contact": {
+        "title": "Et si nous collaborions ?",
+        "introduction": "Je vous accompagnerai dans votre projet, de l'élaboration à la réalisation. Parlons-en ensemble.",
+        "buttonLabel": "Démarrer votre projet"
+    },
+    "footer": {
+        "githubAriaLabel": "Voir le profil GitHub de Vianney",
+        "twitterAriaLabel": "Voir le profil Twitter de Vianney",
+        "linkedinAriaLabel": "Voir le profil LinkedIn de Vianney",
+        "informations": "Design et développement réalisés par mes soins - Tous droits réservés",
+        "legals": "Mentions Légales"
+    },
+    "legals": {
+        "title": "Mentions Légales",
+        "ownerTitle": "Propriétaire",
+        "ownerContent": "Monsieur Vianney ACCART – 3 Rue du Repos, 69740 Genas, France",
+        "publishTitle": "Responsable de la publication",
+        "publishContent": "Vianney ACCART – vianneyaccart@gmail.com",
+        "webmasterTitle": "Webmaster",
+        "webmasterContent": "Vianney ACCART",
+        "hostingTitle": "Hébergement",
+        "hostingContent": "Ce site est hébergé par Vercel",
+        "privacyAndCookies": "Ce site ne collecte aucune donnée personnelle et n'utilise pas de cookies."
     }
 }

@@ -1,4 +1,5 @@
 {
+    "title": "Vianney Accart - Full Stack Developer & Software Engineer",
     "header": {
         "frenchFlag": "French flag icon",
         "englishFlag": "English flag icon"
@@ -58,5 +59,29 @@
             "testimonial": "I approached Vianney when I launched my fitness coaching business to create my website. I had very few ideas regarding the design. Vianney asked me the right questions to offer me different possibilities. He took initiatives to save me time.",
             "roleAndCompany": "Fitness Coach, Esprit Body"
         }
+    },
+    "contact": {
+        "title": "What if we collaborate ?",
+        "introduction": "I will accompany you in your project, from planning to implementation. Let's discuss it together.",
+        "buttonLabel": "Start your project"
+    },
+    "footer": {
+        "githubAriaLabel": "Show Vianney's GitHub profile",
+        "twitterAriaLabel": "Show Vianney's Twitter profile",
+        "linkedinAriaLabel": "Show Vianney's LinkedIn profile",
+        "informations": "Design and development done by myself - All rights reserved",
+        "legals": "Legals"
+    },
+    "legals": {
+        "title": "Legals",
+        "ownerTitle": "Owner",
+        "ownerContent": "Mr. Vianney ACCART – 3 Rue du Repos, 69740 Genas, France",
+        "publishTitle": "Responsible for publication",
+        "publishContent": "Vianney ACCART – vianneyaccart@gmail.com",
+        "webmasterTitle": "Webmaster",
+        "webmasterContent": "Vianney ACCART",
+        "hostingTitle": "Hosting",
+        "hostingContent": "This website is hosted by Vercel",
+        "privacyAndCookies": "This website does not collect any personal data and does not use cookies."
     }
 }

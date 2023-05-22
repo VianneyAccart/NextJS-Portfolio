@@ -5,6 +5,7 @@ import { IconType } from "react-icons/lib";
 import { GITHUB_URL, LINKEDIN_URL, TWITTER_URL } from "@/links";
 import Legals from "./Legals";
 import { useState } from "react";
+import { t } from "i18next";
 
 const FooterLink = ({
   icon: Icon,
@@ -46,28 +47,28 @@ const Footer = () => {
         <FooterLink
           icon={FiGithub}
           url={GITHUB_URL}
-          ariaLabel="Visit Vianney's GitHub"
+          ariaLabel={t("footer.githubAriaLabel")}
         />
         <FooterLink
           icon={BsTwitter}
           url={TWITTER_URL}
-          ariaLabel="Visit Vianney's Twitter"
+          ariaLabel={t("footer.twitterAriaLabel")}
         />
         <FooterLink
           icon={FaLinkedinIn}
           url={LINKEDIN_URL}
-          ariaLabel="Visit Vianney's LinkedIn"
+          ariaLabel={t("footer.linkedinAriaLabel")}
         />
       </div>
       <div className="mb-12 mt-4">
         <p className="mt-4 font-light text-lg text-center">
-          Design et développement réalisés par mes soins - Tous droits réservés
+          {t("footer.informations")}
         </p>
         <p
           className="font-light text-lg text-center cursor-pointer underline decoration-solid"
           onClick={openLegals}
         >
-          Mentions Légales
+          {t("footer.legals")}
         </p>
       </div>
       {isLegalsOpen && <Legals closeLegals={closeLegals} />}
