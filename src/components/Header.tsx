@@ -1,6 +1,6 @@
 import ThemeToggler from "./ThemeToggler";
 import Image from "next/image";
-import i18n from "i18next";
+import i18n, { t } from "i18next";
 
 import { useEffect, useState } from "react";
 
@@ -47,8 +47,16 @@ const Header = () => {
       <nav className="flex justify-between items-center py-5 px-6 md:px-12">
         <ThemeToggler />
         <div className="flex gap-4">
-          <LangToggler src="/french_flag.png" alt="French flag" lang="fr" />
-          <LangToggler src="/english_flag.png" alt="English flag" lang="en" />
+          <LangToggler
+            src="/french_flag.png"
+            alt={t("header.frenchFlag")}
+            lang="fr"
+          />
+          <LangToggler
+            src="/english_flag.png"
+            alt={t("header.englishFlag")}
+            lang="en"
+          />
         </div>
       </nav>
     </header>

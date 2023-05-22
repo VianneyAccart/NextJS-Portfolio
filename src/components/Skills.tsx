@@ -1,6 +1,7 @@
 import { IconType } from "react-icons";
 import { BsDatabase, BsCodeSlash } from "react-icons/bs";
 import SectionIntroduction from "./SectionIntroduction";
+import { t } from "i18next";
 
 const Skill = ({
   icon: Icon,
@@ -19,11 +20,11 @@ const Skill = ({
     <div className="rounded-xl p-8 bg-gray-100 dark:bg-gray-700 flex flex-col items-center justify-center">
       <Icon className="text-5xl mb-4" />
       <h3>{title}</h3>
-      <p className="skill-title">Languages</p>
+      <p className="skill-title">{t("skills.language")}</p>
       <p className="text-center font-light">{languages.join(", ")}</p>
-      <p className="skill-title">Frameworks/Libraries</p>
+      <p className="skill-title">{t("skills.frameworkAndLibraries")}</p>
       <p className="text-center font-light">{frameworks.join(", ")}</p>
-      <p className="skill-title">Tools</p>
+      <p className="skill-title">{t("skills.tools")}</p>
       <p className="text-center font-light">{tools.join(", ")}</p>
     </div>
   );
@@ -33,9 +34,8 @@ const Skills = () => {
   return (
     <section>
       <SectionIntroduction
-        title="Mon kit de survie"
-        introduction="Ce sont les langages, frameworks, librairies et outils que j'utilise
-          régulièrement."
+        title={t("skills.title")}
+        introduction={t("skills.introduction")}
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 margin-x">

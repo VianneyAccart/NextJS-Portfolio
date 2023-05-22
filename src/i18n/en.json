@@ -1,0 +1,62 @@
+{
+    "header": {
+        "frenchFlag": "French flag icon",
+        "englishFlag": "English flag icon"
+    },
+    "about": {
+        "title": "Full Stack Developer & Software Engineer",
+        "profilePictureAlt": "Picture of Vianney Accart",
+        "introduction": "I chose the development world because it allows me to develop my curiosity, learning capacity, and creativity on a daily basis. I enjoy creating applications with modern design, high performance, and user-friendliness. My experience enables me to integrate into projects of all types, ranging from a simple showcase website to a complex industrial project. I currently hold the position of software engineer at In-Core Systèmes."
+    },
+    "skills": {
+        "title": "My survival kit",
+        "introduction": "These are the languages, frameworks, libraries, and tools that I regularly use.",
+        "language": "Languages",
+        "frameworkAndLibraries": "Framework/Libraries",
+        "tools": "Tools"
+    },
+    "projects": {
+        "title": "My achievements",
+        "introduction": "I offer you a selection of some projects I have worked on.",
+        "githubButtonLabel": "View more on GitHub",
+        "buttonLabel": "Visit",
+        "guillaumeAstrucPhotography": {
+            "description": "Online photography sales platform for Guillaume Astruc Photography",
+            "imageAlt": "Illustration of Guillaume Astruc Photography website"
+        },
+        "chopTonJob": {
+            "description": "Chop'Ton Job allows you to search for companies with recruitment needs",
+            "imageAlt": "Illustration of Chop'Ton Job website"
+        },
+        "rockQuest": {
+            "description": "Rock'Quest is a Guitar Hero-like game created in Vanilla JS. Playable mainly on desktop",
+            "imageAlt": "Illustration of Rock'Quest website"
+        },
+        "espritBody": {
+            "description": "Showcase website presenting the services of the Esprit Body fitness coaching company",
+            "imageAlt": "Illustration of Esprit Body website"
+        },
+        "pruneManciet": {
+            "description": "Showcase website presenting the services of Prune Manciet, an osteopath in Bourgoin-Jallieu",
+            "imageAlt": "Illustration of Prune Manciet website"
+        },
+        "enbasdemarue": {
+            "description": "Blog presenting the services offered by the Enbasdemarue marketplace",
+            "imageAlt": "Illustration of Enbasdemarue blog"
+        }
+    },
+    "testimonials": {
+        "title": "Testimonials",
+        "introduction": "They trusted me by entrusting me with the realization of their project.",
+        "guillaumeAstrucPhotography": {
+            "pictureAlt": "Picture of Guillaume Astruc",
+            "testimonial": "I am a professional photographer and I called upon Vianney to design my website. He demonstrated great professionalism in adapting to my needs and proposing something that suits me perfectly. He is very organized, available, and proactive",
+            "roleAndCompany": "Photographer, Guillaume Astruc Photography"
+        },
+        "espritBody": {
+            "pictureAlt": "Picture of Quentin Petitjean",
+            "testimonial": "I approached Vianney when I launched my fitness coaching business to create my website. I had very few ideas regarding the design. Vianney asked me the right questions to offer me different possibilities. He took initiatives to save me time.",
+            "roleAndCompany": "Fitness Coach, Esprit Body"
+        }
+    }
+}

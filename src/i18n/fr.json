@@ -1,0 +1,62 @@
+{
+    "header": {
+        "frenchFlag": "Icône du drapeau de la France",
+        "englishFlag": "Icône du drapeau de l'Angleterre"
+    },
+    "about": {
+        "title": "Développeur Full Stack & Ingénieur Logiciel",
+        "profilePictureAlt": "Photo de Vianney Accart",
+        "introduction": "J'ai choisi le monde du développement car il me permet de développer quotidiennement ma curiosité, ma capacité d'apprentissage et ma créativité. J'aime créer des applications aux design modernes, performantes et agréables à utiliser. Mon expérience me permet de m'intégrer sur des projets de tous types, allant d'un simple site vitrine à un projet industriel complexe. J'occupe actuellement le poste d'ingénieur logiciel chez In-Core Systèmes."
+    },
+    "skills": {
+        "title": "Mon kit de survie",
+        "introduction": "Ce sont les langages, frameworks, librairies et outils que j'utilise régulièrement.",
+        "language": "Langages",
+        "frameworkAndLibraries": "Framework/Librairies",
+        "tools": "Outils"
+    },
+    "projects": {
+        "title": "Mes réalisations",
+        "introduction": "Je vous propose une sélection de quelques projets sur lesquels j'ai travaillé.",
+        "githubButtonLabel": "Voir plus sur GitHub",
+        "buttonLabel": "Visiter",
+        "guillaumeAstrucPhotography": {
+            "description": "Plateforme de vente de photographies en ligne pour Guillaume Astruc Photography",
+            "imageAlt": "Illustration du site de Guillaume Astruc Photography"
+        },
+        "chopTonJob": {
+            "description": "Chop'Ton Job permet de chercher des entreprises ayant des besoins en recrutement",
+            "imageAlt": "Illustration du site Chop'Ton Job"
+        },
+        "rockQuest": {
+            "description": "Rock'Quest est un Guitar Hero like réalisé en Vanilla JS. Jouable principalement sur desktop",
+            "imageAlt": "Illustration du site Rock'Quest"
+        },
+        "espritBody": {
+            "description": "Site vitrine qui présente les services de l'entreprise de coaching sportif Esprit Body",
+            "imageAlt": "Illustration du site Esprit Body"
+        },
+        "pruneManciet": {
+            "description": "Site vitrine qui présente les services de Prune Manciet, ostéopathe à Bourgoin-Jallieu",
+            "imageAlt": "Illustration du site de Prune Manciet"
+        },
+        "enbasdemarue": {
+            "description": "Blog qui présente les services proposés par la marketplace Enbasdemarue",
+            "imageAlt": "Illustration du blog Enbasdemarue"
+        }
+    },
+    "testimonials": {
+        "title": "Témoignages",
+        "introduction": "Ils m'ont fait confiance en me confiant la réalisation de leur projet.",
+        "guillaumeAstrucPhotography": {
+            "pictureAlt": "Photo de Guillaume Astruc",
+            "testimonial": "Je suis photographe professionnel et j'ai fait appel à Vianney pour concevoir mon site internet. Il a su faire preuve d'un grand professionnalisme pour s'adapter au mieux à mes besoins et me proposer quelque chose qui me correspond parfaitement. Il est très organisé, disponible et force de proposition",
+            "roleAndCompany": "Photographe, Guillaume Astruc Photography"
+        },
+        "espritBody": {
+            "pictureAlt": "Photo de Quentin Petitjean",
+            "testimonial": "J’ai fait appel à Vianney au lancement de mon activité de coaching sportif pour réaliser mon site. Je n'avais que peu d'idées concernant le design. Vianney a su me poser les bonnes questions afin de me proposer différentes possibilités. Il a su prendre des initiatives pour me faire gagner du temps",
+            "roleAndCompany": "Coach Sportif, Esprit Body"
+        }
+    }
+}

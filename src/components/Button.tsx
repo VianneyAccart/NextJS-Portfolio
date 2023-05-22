@@ -35,5 +35,3 @@ const Button = ({
 };
 
 export default Button;
-
-//bg-transparent text-blue-500 hover:text-white border border-solid border-1 border-blue-500 hover:border-blue-600

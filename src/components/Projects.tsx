@@ -30,7 +30,7 @@ const Project = ({
         <p className="text-center text-lg font-light mb-5">{description}</p>
         <Button
           className="h-12"
-          label={t("visit")}
+          label={t("projects.buttonLabel")}
           newTab={true}
           url={url}
           type={ButtonType.SECONDARY}
@@ -44,46 +44,45 @@ const Projects = () => {
   return (
     <section>
       <SectionIntroduction
-        title="Mes réalisations"
-        introduction="Je vous propose une sélection de quelques projets sur lesquels j'ai
-        travaillé."
+        title={t("projects.title")}
+        introduction={t("projects.introduction")}
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 margin-x">
         <Project
           src="/guillaume-astruc-photography.webp"
-          alt="Site web Guillaume Astruc Photography"
-          description="Plateforme de vente de photographies en ligne pour Guillaume Astruc Photography"
+          alt={t("projects.guillaumeAstrucPhotography.imageAlt")}
+          description={t("projects.guillaumeAstrucPhotography.description")}
           url="https://www.guillaumeastrucphotography.com/"
         />
         <Project
           src="/chop-ton-job.webp"
-          alt="Chop'Ton Job"
-          description="Chop'Ton Job permet de chercher des entreprises ayant des besoins en recrutement"
+          alt={t("projects.chopTonJob.imageAlt")}
+          description={t("projects.chopTonJob.description")}
           url="https://chop-ton-job.web.app/"
         />
         <Project
           src="/rock-quest.webp"
-          alt="Rock'Quest"
-          description="Rock'Quest est un Guitar Hero like réalisé en Vanilla JS. Jouable principalement sur desktop"
+          alt={t("projects.rockQuest.imageAlt")}
+          description={t("projects.rockQuest.description")}
           url="https://rockquest.netlify.app/"
         />
         <Project
           src="/esprit-body.webp"
-          alt="Site web Esprit Body"
-          description="Site vitrine qui présente les services de l'entreprise de coaching sportif Esprit Body"
+          alt={t("projects.espritBody.imageAlt")}
+          description={t("projects.espritBody.description")}
           url="https://www.guillaumeastrucphotography.com/"
         />
         <Project
           src="/prune-manciet-osteopathe.webp"
-          alt="Site web Prune Manciet"
-          description="Site vitrine qui présente les services de Prune Manciet, ostéopathe à Bourgoin-Jallieu"
+          alt={t("projects.pruneManciet.imageAlt")}
+          description={t("projects.pruneManciet.description")}
           url="https://prunemanciet-osteopathe.fr/"
         />
         <Project
           src="/blog-enbasdemarue.webp"
-          alt="Blog de la marketplace Enbasdemarue"
-          description="Blog qui présente les services proposés par la marketplace Enbasdemarue"
+          alt={t("projects.enbasdemarue.imageAlt")}
+          description={t("projects.enbasdemarue.description")}
           url="https://www.blog.enbasdemarue.fr/"
         />
       </div>
@@ -92,7 +91,7 @@ const Projects = () => {
         <Button
           url={GITHUB_URL}
           newTab={true}
-          label="See more on GitHub"
+          label={t("projects.githubButtonLabel")}
           type={ButtonType.SECONDARY}
         />
       </div>

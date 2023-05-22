@@ -9,24 +9,23 @@ const About = () => {
   return (
     <section className="mt-20">
       <h1>Vianney Accart</h1>
-      <h2 className="text-2xl md:text-3xl font-thin">{t("title")}</h2>
+      <h2 className="text-2xl md:text-3xl font-thin">{t("about.title")}</h2>
       <div className="flex justify-center mt-24">
         <Image
           src="/profile_picture.png"
-          alt="Picture of Vianney Accart" // TODO : Translate
+          alt={t("about.profilePictureAlt")}
           width={200}
           height={200}
-          className="border border-solid border-4 border-white rounded-full"
+          className="border-solid border-4 border-white rounded-full"
         />
       </div>
 
       <div className="-mt-24 text-xl margin-x p-6 md:p-16 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
         <p className="text-center mt-24 md:mt-16 mb-12 md:mb-10 md:text-xl font-light">
-          {t("about")}
+          {t("about.introduction")}
         </p>
       </div>
 
-      {/* TODO : upload english cv */}
       <div className="flex justify-center">
         <div className="-mt-8">
           <Button
