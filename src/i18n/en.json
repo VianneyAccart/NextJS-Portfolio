@@ -7,14 +7,14 @@
     "about": {
         "title": "Full Stack Developer & Software Engineer",
         "profilePictureAlt": "Picture of Vianney Accart",
-        "introduction": "I chose the development world because it allows me to develop my curiosity, learning capacity, and creativity on a daily basis. I enjoy creating applications with modern design, high performance, and user-friendliness. My experience enables me to integrate into projects of all types, ranging from a simple showcase website to a complex industrial project. I currently hold the position of software engineer at In-Core Systèmes."
+        "introduction": "I chose the development world because it allows me to develop my curiosity, learning capacity, and creativity on a daily basis. I enjoy creating applications with modern design, high performance, and user-friendliness. My experience enables me to integrate into projects of all types, ranging from a simple showcase website to a complex industrial project. I currently hold the position of software engineer at Smile."
     },
     "skills": {
         "title": "My survival kit",
         "introduction": "These are the languages, frameworks, libraries, and tools that I regularly use.",
         "language": "Languages",
         "frameworkAndLibraries": "Framework/Libraries",
-        "tools": "Tools"
+        "tools": "Tools & Methods"
     },
     "projects": {
         "title": "My achievements",
@@ -75,7 +75,7 @@
     "legals": {
         "title": "Legals",
         "ownerTitle": "Owner",
-        "ownerContent": "Mr. Vianney ACCART – 3 Rue du Repos, 69740 Genas, France",
+        "ownerContent": "Mr. Vianney ACCART – 8 Impasse des Lilas, 69780 Toussieu, France",
         "publishTitle": "Responsible for publication",
         "publishContent": "Vianney ACCART – vianneyaccart@gmail.com",
         "webmasterTitle": "Webmaster",

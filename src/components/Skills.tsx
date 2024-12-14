@@ -42,44 +42,30 @@ const Skills = () => {
         <Skill
           icon={BsCodeSlash}
           title="Front-End"
-          languages={["HTML", "CSS", "JavaScript", "TypeScript"]}
+          languages={["HTML", "CSS", "TypeScript"]}
           frameworks={[
-            "React",
-            "React Native",
-            "NextJS",
-            "Apollo Client",
-            "Jest",
             "Angular",
+            "React",
+            "NextJS",
             "Tailwind",
-            "CSS",
             "Bootstrap",
           ]}
-          tools={["GitHub", "GitLab", "Figma"]}
+          tools={["Figma"]}
         />
         <Skill
           icon={BsDatabase}
           title="Back-End & Ops"
-          languages={["JavaScript", "TypeScript", "Python", "Java"]}
+          languages={["Java", "TypeScript", "Python"]}
           frameworks={[
             "NodeJS",
-            "GraphQL",
-            "Apollo Server",
-            "Prisma",
-            "TypeORM",
-            "Spring",
-            "Hibernate",
-            "Django",
-            "DRF",
-            "Flask",
+            "Spring Boot"
           ]}
           tools={[
-            "MySQL",
             "PostgreSQL",
-            "Oracle",
-            "SQLite",
             "Docker",
-            "RabbitMQ",
-            "CI/CD",
+            "Traefik",
+            "AWS Certified Cloud Practitioner",
+            "TDD",
           ]}
         />
       </div>

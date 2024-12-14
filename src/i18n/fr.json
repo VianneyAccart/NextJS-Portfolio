@@ -7,14 +7,14 @@
     "about": {
         "title": "Développeur Full Stack & Ingénieur Logiciel",
         "profilePictureAlt": "Photo de Vianney Accart",
-        "introduction": "J'ai choisi le monde du développement car il me permet de développer quotidiennement ma curiosité, ma capacité d'apprentissage et ma créativité. J'aime créer des applications aux design modernes, performantes et agréables à utiliser. Mon expérience me permet de m'intégrer sur des projets de tous types, allant d'un simple site vitrine à un projet industriel complexe. J'occupe actuellement le poste d'ingénieur logiciel chez In-Core Systèmes."
+        "introduction": "J'ai choisi le monde du développement car il me permet de développer quotidiennement ma curiosité, ma capacité d'apprentissage et ma créativité. J'aime créer des applications aux design modernes, performantes et agréables à utiliser. Mon expérience me permet de m'intégrer sur des projets de tous types, allant d'un simple site vitrine à un projet industriel complexe. J'occupe actuellement le poste d'ingénieur logiciel chez Smile."
     },
     "skills": {
         "title": "Mon kit de survie",
         "introduction": "Ce sont les langages, frameworks, librairies et outils que j'utilise régulièrement.",
         "language": "Langages",
         "frameworkAndLibraries": "Framework/Librairies",
-        "tools": "Outils"
+        "tools": "Outils & Méthodologies"
     },
     "projects": {
         "title": "Mes réalisations",
@@ -75,7 +75,7 @@
     "legals": {
         "title": "Mentions Légales",
         "ownerTitle": "Propriétaire",
-        "ownerContent": "Monsieur Vianney ACCART – 3 Rue du Repos, 69740 Genas, France",
+        "ownerContent": "Monsieur Vianney ACCART – 8 Impasse des Lilas, 69780 Toussieu, France",
         "publishTitle": "Responsable de la publication",
         "publishContent": "Vianney ACCART – vianneyaccart@gmail.com",
         "webmasterTitle": "Webmaster",
