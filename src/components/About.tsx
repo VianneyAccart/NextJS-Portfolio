@@ -25,21 +25,6 @@ const About = () => {
           {t("about.introduction")}
         </p>
       </div>
-
-      <div className="flex justify-center">
-        <div className="-mt-8">
-          <Button
-            url={
-              i18n.language === "fr"
-                ? "/cv_vianney_accart_fr.pdf"
-                : "/cv_vianney_accart_en.pdf"
-            }
-            label="Curriculum Vitae"
-            newTab={true}
-            type={ButtonType.PRIMARY}
-          />
-        </div>
-      </div>
     </section>
   );
 };
