@@ -25,6 +25,18 @@
       "description": "Plateforme de vente de photographies en ligne pour Guillaume Astruc Photography",
       "imageAlt": "Illustration du site de Guillaume Astruc Photography"
     },
+    "eventify": {
+      "description": "Site vitrine pour un complexe événementiel et de location de salles en Belgique",
+      "imageAlt": "Illustration du site Eventify"
+    },
+    "maisonPotentiel": {
+      "description": "Site vitrine une association d'aide à la parentalité à Bourgoin-Jallieu",
+      "imageAlt": "Illustration du site de l'association Maison Potentiel"
+    },
+    "timToque": {
+      "description": "Site vitrine pour un traiteur travaillant avec des produit frais et locaux",
+      "imageAlt": "Illustration du site Tim'Toque"
+    },
     "chopTonJob": {
       "description": "Chop'Ton Job permet de chercher des entreprises ayant des besoins en recrutement",
       "imageAlt": "Illustration du site Chop'Ton Job"
@@ -67,7 +79,6 @@
   },
   "footer": {
     "githubAriaLabel": "Voir le profil GitHub de Vianney",
-    "twitterAriaLabel": "Voir le profil Twitter de Vianney",
     "linkedinAriaLabel": "Voir le profil LinkedIn de Vianney",
     "informations": "Design et développement réalisés par mes soins - Tous droits réservés",
     "legals": "Mentions Légales"

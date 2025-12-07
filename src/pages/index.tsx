@@ -48,7 +48,6 @@ const Home = () => {
       <main>
         <Header />
         <About />
-        <Skills />
         <Projects />
         <Testimonials />
         <Contact />

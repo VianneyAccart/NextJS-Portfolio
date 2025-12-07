@@ -1,8 +1,7 @@
-import { BsTwitter } from "react-icons/bs";
 import { FiGithub } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IconType } from "react-icons/lib";
-import { GITHUB_URL, LINKEDIN_URL, TWITTER_URL } from "@/links";
+import { GITHUB_URL, LINKEDIN_URL } from "@/links";
 import Legals from "./Legals";
 import { useState } from "react";
 import { t } from "i18next";
@@ -48,11 +47,6 @@ const Footer = () => {
           icon={FiGithub}
           url={GITHUB_URL}
           ariaLabel={t("footer.githubAriaLabel")}
-        />
-        <FooterLink
-          icon={BsTwitter}
-          url={TWITTER_URL}
-          ariaLabel={t("footer.twitterAriaLabel")}
         />
         <FooterLink
           icon={FaLinkedinIn}

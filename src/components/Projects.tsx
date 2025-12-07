@@ -55,6 +55,24 @@ const Projects = () => {
           description={t("projects.guillaumeAstrucPhotography.description")}
           url="https://www.guillaumeastrucphotography.com/"
         />
+          <Project
+              src="/eventify.webp"
+              alt={t("projects.eventify.imageAlt")}
+              description={t("projects.eventify.description")}
+              url="https://eventify.space/"
+          />
+          <Project
+              src="/maison_potentiel.webp"
+              alt={t("projects.maisonPotentiel.imageAlt")}
+              description={t("projects.maisonPotentiel.description")}
+              url="https://maisonpotentiel.fr/"
+          />
+          <Project
+              src="/tim_toque.webp"
+              alt={t("projects.timToque.imageAlt")}
+              description={t("projects.timToque.description")}
+              url="https://timtoque.fr/"
+          />
         <Project
           src="/chop-ton-job.webp"
           alt={t("projects.chopTonJob.imageAlt")}
@@ -71,7 +89,7 @@ const Projects = () => {
           src="/esprit-body.webp"
           alt={t("projects.espritBody.imageAlt")}
           description={t("projects.espritBody.description")}
-          url="https://www.guillaumeastrucphotography.com/"
+          url="https://espritbody.fr/"
         />
         <Project
           src="/prune-manciet-osteopathe.webp"

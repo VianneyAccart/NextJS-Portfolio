@@ -25,6 +25,18 @@
       "description": "Online photography sales platform for Guillaume Astruc Photography",
       "imageAlt": "Illustration of Guillaume Astruc Photography website"
     },
+    "eventify": {
+      "description": "Showcase website for an event and venue rental complex in Belgium",
+      "imageAlt": "Illustration of Eventify website"
+    },
+    "maisonPotentiel": {
+      "description": "Showcase website for a parenting support association in Bourgoin-Jallieu",
+      "imageAlt": "Illustration of parenting association Maison Potentiel website"
+    },
+    "timToque": {
+      "description": "Showcase website for a caterer working with fresh, locally sourced products",
+      "imageAlt": "Illustration of Tim'Toque website"
+    },
     "chopTonJob": {
       "description": "Chop'Ton Job allows you to search for companies with recruitment needs",
       "imageAlt": "Illustration of Chop'Ton Job website"
@@ -67,7 +79,6 @@
   },
   "footer": {
     "githubAriaLabel": "Show Vianney's GitHub profile",
-    "twitterAriaLabel": "Show Vianney's Twitter profile",
     "linkedinAriaLabel": "Show Vianney's LinkedIn profile",
     "informations": "Design and development done by myself - All rights reserved",
     "legals": "Legals"
